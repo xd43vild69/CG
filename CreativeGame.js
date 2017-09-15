@@ -24,20 +24,17 @@ var levelAL = 1;
 var elementArrayGWords = [];
 var lastElement = "";
 
-
-
-
 function configArray() {
 
     // Flow success - Flow Possibilities - Flow Elections
 
 
 
-    theme = ["primitivo", "animal", "Surrealismo", "simbolismo", "fantasia", "meditaciÃ³n", "amor", "lo organico", "ternura", "debil", "melancolico", "escorso", "sed", "suciedad", "macha", "liquido", "hambre", "locura", "soledad", "deseo", "frio", "religioso", "sexual", "muerte", "filosofico", "tenebrismo", "belleza", "pobreza", "decadentismo", "sufrimiento", "kitch", "drogas", "miedo", "drama", "naturaleza", "caricatura", "desnudo", "autoretrato", "bodegon", "pinturaGenero", "amarillo", "azul", "rojo", "naranja", "verde", "morado", "dia", "noche", "blanco", "negro", "tul", "liensillo", "fique", "cadenas", "gasa", "mesa", "cuerdas", "cabulla", "cruz", "maniqui", "cabeza", "telaPeluche", "brazo", "lenceria", "Perlas", "Telas", "Alambre", "Silla", "Madera", "Uvas", "collarPerlas", "HojasArbol", "FloresSecas", "floresVivas", "PocilloMetal", "Raices", "AlambreDePua", "AnimalesPatasGallinaCarniceria", "Bandeja", "Mascaras", "LibrosViejos", "Bustos", "ElementosDeMedicina", "TelasManchadas", "Cartones", "Imprimir (craneos - bustos  - ojos )", "PiezasMalasCementerioSPedro"];
+    theme = ["primitivo","animal","Surrealismo", "simbolismo","fantasia", "meditaciÃ³n","amor", "lo organico", "ternura", "debil", "melancolico", "escorso", "sed", "suciedad", "macha", "liquido", "hambre", "locura", "soledad", "deseo", "frio", "religioso", "sexual", "muerte", "filosofico", "tenebrismo", "belleza", "pobreza", "decadentismo", "sufrimiento", "kitch", "drogas", "miedo", "drama", "naturaleza", "caricatura", "desnudo", "autoretrato", "bodegon", "pinturaGenero", "amarillo", "azul", "rojo", "naranja", "verde", "morado", "dia", "noche", "blanco", "negro", "tul", "liensillo", "fique", "cadenas", "gasa", "mesa", "cuerdas", "cabulla", "cruz", "maniqui", "cabeza", "telaPeluche", "brazo", "lenceria", "Perlas", "Telas", "Alambre", "Silla", "Madera", "Uvas", "collarPerlas", "HojasArbol", "FloresSecas", "floresVivas", "PocilloMetal", "Raices", "AlambreDePua", "AnimalesPatasGallinaCarniceria", "Bandeja", "Mascaras", "LibrosViejos", "Bustos", "ElementosDeMedicina", "TelasManchadas", "Cartones", "Imprimir (craneos - bustos  - ojos )", "PiezasMalasCementerioSPedro"];
     parts = ["ojos", "nariz", "manos", "labios", "manos", "oreja", "pies", "espalda", "cabello", "brazo", "cabeza", "genitales", "tul", "liensillo", "fique", "cadenas", "gasa", "mesa", "cuerdas", "cabulla", "cruz", "maniqui", "cabeza", "telaPeluche", "brazo", "lenceria"];
     //pose = [];
     artistRefHigh = ["Velasquez", "DaVinci", "Rubens", "Caravaggio", "Rivera", "Miguelangelo", "Rubens", "Picasso"];
-    artistRefLow = ["Aoi", "AnselAddams", "Woodman", "Witkin", "Saudek", "Arbus", "Nadar", "DianaHenao"];
+    artistRefLow = ["Aoi", "AnselAddams", "Woodman", "Witkin", "Saudek", "Arbus","Nadar", "DianaHenao"];
     //materials = ["tul", "liensillo", "fique", "cadenas", "gasa", "mesa", "cuerdas", "cabulla", "cruz", "maniqui", "cabeza", "telaPeluche", "brazo", "lenceria"];
     soundtrack = ["tango", "electronic", "blackMetal", "ambient", "rockNRoll", "blues", "deathMetal"];
     cWords = ["agrandar", "disminuir", "suprimirTodo", "suprimirAlgo", "invertirTodo", "invertirAlgo", "AsociarAB", "AsociarBC", "AsociarAC", "sencibilizar", "reordenar", "adaptar", "modificarTodo", "modificarAlgo", "simplificar", "sintetizar", "abstraer", "simetria-asimetria", "simple-complejo", "unidad-fragmentacion", "predectibilidad-expontaneidad", "sutileza-audacia", "neutralidad-acento"];
@@ -46,10 +43,10 @@ function configArray() {
     gWords = ["punto", "linea", "contorno", "direccion", "tono", "color", "textura", "escala", "dimension", "movimiento"];
     gWordsPoint = ["noEnergia", "mide", "separa", "conecta", "equilibra"];
     gWordsLine = ["eje", "perspectiva", "estructura", "direccion", "dimensionPlana", "espacio", "silueta", "geometria"];
-    gWordsContour = ["circulo", "cuadrado", "triangulo", "atributosSubjetivos", "dimensionPlana", "espacio", "silueta", "geometria"];
+    gWordsContour = ["circulo", "cuadrado", "triangulo" , "atributosSubjetivos", "dimensionPlana", "espacio", "silueta", "geometria"];
     gWordsDiretion = ["patronExploracion", "persistenciaVisual", "movimiento", "diagonales", "composicionAbierta", "composicionCerrada"];
     gWordsTone = ["luz", "Sombra", "gradaciones", "contraste", "rangoDinamico", "esquemaTonal", "claveAlta", "claveBaja"];
-    gWordsColor = ["psicologia", "luminosidad", "sensaciones", "aditivo", "sustractivo", "esquemaColor", "primarios", "secundarios", "terciarios"];
+    gWordsColor = ["psicologia", "luminosidad", "sensaciones", "aditivo", "sustractivo", "esquemaColor", "primarios", "secundarios" , "terciarios"];
     gWordsTexture = ["mosaico", "visualTactil", "ritmo", "orden", "particion", "musicalidad"];
     gWordsScale = ["proporsiones", "angulo", "canonCabeza", "raizCuadrada", "principioPareto", "enfasis"];
     gWordsDimention = ["fondo", "atenciÃ³nLineas", "espacioRelativo", "planosProfundidad", "ubicacionVertical", "lineaHorizonte", "perspectiva", "atmosfera", "puntoFuga"];
@@ -59,7 +56,8 @@ function configArray() {
 
 }
 
-function configureQuotes() {
+function configureQuotes()
+{
     quotes.push("No es de dÃ³nde sacas las cosas, sino adÃ³nde las llevas");
     quotes.push("Alguien podria decir de mi que me he limitado a hacer un ramillete de flores ajenas,  cuando yo solo he aportado el cordel que las ata");
     quotes.push("La creatividad consiste en saber ocultar tus fuentes - Einstein");
@@ -275,6 +273,9 @@ function setGWordsElements(elementChoose) {
 
 
 function cleanOptions() {
+    $("#uwv").empty();
+    $("#utv").empty();
+    $("#usv").empty();
     $("#divwv").empty();
     $("#divtv").empty();
     $("#divcwv").empty();
@@ -311,7 +312,7 @@ function cleanOption(option) {
 function searchElement(element) {
     var existElement = false;
 
-    for (x = 0; x < selected.length; x++) {
+    for (x = 0; x < selected.length ; x++) {
         if (selected[x] == element) {
             existElement = true;
         }
@@ -337,16 +338,19 @@ function createOptions(element, lengthOptions) {
                 $("#divqv").append('<div id="divElement"><label>' + elementSelection + '</label></div>');
                 break;
             case "wv":
-                $("#divwv").append('<div id="divElement"><label onclick="expandGWords(\'' + elementSelection + '\')">' + elementSelection + '</label></div>');
+                //$("#divwv").append('<div id="divElement"><label onclick="expandGWords(\''+ elementSelection +'\')">' + elementSelection + '</label></div>');
+                $("#uwv").append('<li><label onclick="expandGWords(\''+ elementSelection +'\')">'+ elementSelection +"</label></li>");
                 break;
             case "tv":
-                $("#divtv").append('<div id="divElement"><label>' + elementSelection + '</label></div>');
+                //$("#divtv").append('<div id="divElement"><label>' + elementSelection + '</label></div>');
+                $("#utv").append('<li><label onclick="expandGWords(\''+ elementSelection +'\')">'+ elementSelection +"</label></li>");
                 break;
             case "cwv":
                 $("#divcwv").append('<div id="divElement"><label>' + elementSelection + '</label></div>');
                 break;
             case "sv":
-                $("#divsv").append('<div id="divElement"><label>' + elementSelection + '</label></div>');
+                //$("#divsv").append('<div id="divElement"><label>' + elementSelection + '</label></div>');
+                $("#usv").append('<li><label onclick="expandGWords(\''+ elementSelection +'\')">'+ elementSelection +"</label></li>");
                 break;
             case "pv":
                 $("#divpv").append('<div id="divElement"><label>' + elementSelection + '</label></div>');
@@ -391,11 +395,9 @@ function createOptions(element, lengthOptions) {
 }
 
 function StartGame() {
-    
     configArray();
 
     cleanOptions();
-    
     cleanGWordsElements();
 
     level = $('#lInit').val();
@@ -409,13 +411,10 @@ function StartGame() {
     //var wInit = $('#wInit').val();
     //var tInit = $('#tInit').val();
 
-    /*
-    
     if (wInit != 0) {
         createOptions("wv", wInit);
     }
 
-    
     if (tInit != 0) {
         createOptions("tv", tInit);
     }
@@ -428,9 +427,8 @@ function StartGame() {
         createOptions("alv", alInit);
     }
 
-    */
-    //createOptions("qv", 1); //Solo 1 frase
-    //createOptions("sv", 1); //Solo 1 genero
+    createOptions("qv", 1);  //Solo 1 frase
+    createOptions("sv", 1);  //Solo 1 genero
 
 
 }
@@ -473,7 +471,8 @@ function expandGWords(element) {
     var gwordElementText = document.getElementById("divGWordsElements");
     var text = document.getElementById("displayText");
 
-    if ((lastElement == element) || (element != "")) {
+    if ((lastElement == element) || (element != ""))
+    {
         cleanGWordsElements();
         gwordElementText.style.display = "none";
     }
@@ -484,7 +483,8 @@ function expandGWords(element) {
 
         gwordElementText.style.display = "none";
         //text.innerHTML = "show";
-    } else {
+    }
+    else {
 
         setGWordsElements(element);
 
@@ -495,12 +495,10 @@ function expandGWords(element) {
     lastElement = element;
 }
 
-// Shorthand for $( document ).ready()
-$(function() {
+$(document).ready(function () {
 
     console.log("Ready!");
-    
-    //clickSel();
-    document.getElementById("btnStartGame").addEventListener("click", StartGame);
+    document.getElementById("btnStartGame").addEventListener("click", StartGame, false);
+    //document.getElementById("btnStartGame").click("StartGame");
 
 });
