@@ -1,0 +1,42 @@
+[debug] [2017-09-19T15:58:58.276Z] ----------------------------------------------------------------------
+[debug] [2017-09-19T15:58:58.279Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dgomemon\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2017-09-19T15:58:58.279Z] CLI Version:   3.11.0
+[debug] [2017-09-19T15:58:58.279Z] Platform:      win32
+[debug] [2017-09-19T15:58:58.279Z] Node Version:  v6.10.1
+[debug] [2017-09-19T15:58:58.281Z] Time:          Tue Sep 19 2017 10:58:58 GMT-0500 (SA Pacific Standard Time)
+[debug] [2017-09-19T15:58:58.281Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-19T15:58:58.296Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-19T15:58:58.297Z] > authorizing via signed-in user
+[debug] [2017-09-19T15:58:58.300Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/dmgomezm-2ffb8  
+ Tue Sep 19 2017 10:58:58 GMT-0500 (SA Pacific Standard Time)
+[debug] [2017-09-19T15:58:59.195Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-19T15:58:59.196Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/dmgomezm-2ffb8/tokens  
+ Tue Sep 19 2017 10:58:59 GMT-0500 (SA Pacific Standard Time)
+[debug] [2017-09-19T15:58:59.804Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'dmgomezm-2ffb8'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] [2017-09-19T15:59:02.272Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/dmgomezm-2ffb8/uploads/-KuPrINRLGGClGWJE6la?fileCount=2&message=  
+ Tue Sep 19 2017 10:59:02 GMT-0500 (SA Pacific Standard Time)
+[debug] [2017-09-19T15:59:30.297Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-19T15:59:30.298Z] [hosting] .tgz uploaded successfully, waiting for extraction
+[error] 
+[error] Error: File upload failed: Deploy failed.
+[debug] [2017-09-19T16:00:15.288Z] Error Context: {
+  "duration": 44494,
+  "fileCount": 2,
+  "ip": "190.131.202.98",
+  "start": 1505836770029,
+  "status": "failed",
+  "statusMessage": "Deploy failed.",
+  "uid": "115693133485168519603",
+  "uploadedCount": 2,
+  "user": {
+    "email": "xdavidgomez13@gmail.com",
+    "gaiaId": "115693133485168519603",
+    "image": "https://lh3.googleusercontent.com/-WQzCmVxWuhc/AAAAAAAAAAI/AAAAAAAACDI/uS3Aa3uD4iA/photo.jpg"
+  }
+}

@@ -30,7 +30,7 @@ function configArray() {
 
 
 
-    theme = ["primitivo","animal","Surrealismo", "simbolismo","fantasia", "meditación","amor", "lo organico", "ternura", "debil", "melancolico", "escorso", "sed", "suciedad", "macha", "liquido", "hambre", "locura", "soledad", "deseo", "frio", "religioso", "sexual", "muerte", "filosofico", "tenebrismo", "belleza", "pobreza", "decadentismo", "sufrimiento", "kitch", "drogas", "miedo", "drama", "naturaleza", "caricatura", "desnudo", "autoretrato", "bodegon", "pinturaGenero", "amarillo", "azul", "rojo", "naranja", "verde", "morado", "dia", "noche", "blanco", "negro", "tul", "liensillo", "fique", "cadenas", "gasa", "mesa", "cuerdas", "cabulla", "cruz", "maniqui", "cabeza", "telaPeluche", "brazo", "lenceria", "Perlas", "Telas", "Alambre", "Silla", "Madera", "Uvas", "collarPerlas", "HojasArbol", "FloresSecas", "floresVivas", "PocilloMetal", "Raices", "AlambreDePua", "AnimalesPatasGallinaCarniceria", "Bandeja", "Mascaras", "LibrosViejos", "Bustos", "ElementosDeMedicina", "TelasManchadas", "Cartones", "Imprimir (craneos - bustos  - ojos )", "PiezasMalasCementerioSPedro"];
+    theme = ["primitivo","animal","Surrealismo", "simbolismo","fantasia", "meditaciÃ³n","amor", "lo organico", "ternura", "debil", "melancolico", "escorso", "sed", "suciedad", "macha", "liquido", "hambre", "locura", "soledad", "deseo", "frio", "religioso", "sexual", "muerte", "filosofico", "tenebrismo", "belleza", "pobreza", "decadentismo", "sufrimiento", "kitch", "drogas", "miedo", "drama", "naturaleza", "caricatura", "desnudo", "autoretrato", "bodegon", "pinturaGenero", "amarillo", "azul", "rojo", "naranja", "verde", "morado", "dia", "noche", "blanco", "negro", "tul", "liensillo", "fique", "cadenas", "gasa", "mesa", "cuerdas", "cabulla", "cruz", "maniqui", "cabeza", "telaPeluche", "brazo", "lenceria", "Perlas", "Telas", "Alambre", "Silla", "Madera", "Uvas", "collarPerlas", "HojasArbol", "FloresSecas", "floresVivas", "PocilloMetal", "Raices", "AlambreDePua", "AnimalesPatasGallinaCarniceria", "Bandeja", "Mascaras", "LibrosViejos", "Bustos", "ElementosDeMedicina", "TelasManchadas", "Cartones", "Imprimir (craneos - bustos  - ojos )", "PiezasMalasCementerioSPedro"];
     parts = ["ojos", "nariz", "manos", "labios", "manos", "oreja", "pies", "espalda", "cabello", "brazo", "cabeza", "genitales", "tul", "liensillo", "fique", "cadenas", "gasa", "mesa", "cuerdas", "cabulla", "cruz", "maniqui", "cabeza", "telaPeluche", "brazo", "lenceria"];
     //pose = [];
     artistRefHigh = ["Velasquez", "DaVinci", "Rubens", "Caravaggio", "Rivera", "Miguelangelo", "Rubens", "Picasso"];
@@ -49,7 +49,7 @@ function configArray() {
     gWordsColor = ["psicologia", "luminosidad", "sensaciones", "aditivo", "sustractivo", "esquemaColor", "primarios", "secundarios" , "terciarios"];
     gWordsTexture = ["mosaico", "visualTactil", "ritmo", "orden", "particion", "musicalidad"];
     gWordsScale = ["proporsiones", "angulo", "canonCabeza", "raizCuadrada", "principioPareto", "enfasis"];
-    gWordsDimention = ["fondo", "atenciónLineas", "espacioRelativo", "planosProfundidad", "ubicacionVertical", "lineaHorizonte", "perspectiva", "atmosfera", "puntoFuga"];
+    gWordsDimention = ["fondo", "atenciÃ³nLineas", "espacioRelativo", "planosProfundidad", "ubicacionVertical", "lineaHorizonte", "perspectiva", "atmosfera", "puntoFuga"];
     gWordsMove = ["borrosidad", "flujoVisual", "empatiaCinetica", "dinamismo", "altaVelocidad", "sinestisia", "esquemaNarrativo"];
 
     configureQuotes();
@@ -58,32 +58,33 @@ function configArray() {
 
 function configureQuotes()
 {
-    quotes.push("No es de dónde sacas las cosas, sino adónde las llevas");
+    quotes.push("No es de dÃ³nde sacas las cosas, sino adÃ³nde las llevas");
     quotes.push("Alguien podria decir de mi que me he limitado a hacer un ramillete de flores ajenas,  cuando yo solo he aportado el cordel que las ata");
     quotes.push("La creatividad consiste en saber ocultar tus fuentes - Einstein");
-    quotes.push("Si he podido ver más allá¡ es por que me he subido sobre hombros de gigantes - Newton");
-    quotes.push("La originalidad no es sino imitación juiciosa");
+    quotes.push("Si he podido ver mÃ¡s allÃ¡ es por que me he subido sobre hombros de gigantes - Newton");
+    quotes.push("La originalidad no es sino imitaciÃ³n juiciosa");
     quotes.push("Empiezo con una  idea que luego se convierte en otra cosa - Picasso");
-    quotes.push("ArmasCarvaggio:Pasión, Interés, Curiosidad, Inspiración, Experimentación, Innovación, Realización");
+    quotes.push("ArmasCarvaggio:PasiÃ³n, InterÃ©s, Curiosidad, InspiraciÃ³n, ExperimentaciÃ³n, InnovaciÃ³n, RealizaciÃ³n");
     quotes.push("1. Do one thing at a time- 2. Know the problem - 3. Learn to listen - 4. Learn to ask questions - 5. Distinguish sense from no sense - 6. Accept change as inevitable - 7. Admit mistakes - 8. Say it simple - 9. Be calm - 10. Smile");
-    quotes.push("Si no triunfas en un primer momento, no intentes hacer exactamente lo mismo de nuevo. Volverás a no triunfar. En lugar reflexiona, evalÃºa , corrige, modifica y solo entonces vuelve q intentarlo. La creatividad es un proceso interactivo. ");
+    quotes.push("Si no triunfas en un primer momento, no intentes hacer exactamente lo mismo de nuevo. VolverÃ¡s a no triunfar. En lugar reflexiona, evalÃºa , corrige, modifica y solo entonces vuelve q intentarlo. La creatividad es un proceso interactivo. ");
     quotes.push("I am happy to have a boring job on the side and keep my art as a passionate hobby");
-    quotes.push("La composición es un juego con los espaciones negativos");
-    quotes.push("composicion juego de adicion y substracción");
+    quotes.push("La composiciÃ³n es un juego con los espaciones negativos");
+    quotes.push("composicion juego de adicion y substracciÃ³n");
     quotes.push("Composicion El orden juega con los modelos de lectura visual de las imagenes");
-    quotes.push("Cada elemento apoya la idea principal, de manera directa o indirecta. Se relaciona por lineas visuales que dirigen o complementan, agregan relaciones respecto al formato y al tamaño. Todo nos remite a la totalidad de manera conciente e inconciente, todo es un juego con la idea principal.");
+    quotes.push("Cada elemento apoya la idea principal, de manera directa o indirecta. Se relaciona por lineas visuales que dirigen o complementan, agregan relaciones respecto al formato y al tamaÃ±o. Todo nos remite a la totalidad de manera conciente e inconciente, todo es un juego con la idea principal.");
     quotes.push("En el modo cotidiano hay que identificar de manera inmediata, en el modo estetico... es un juego menta");
-    quotes.push("Crear un conflicto en lo representado, tensión.");
-    quotes.push("El inconciente un lugar donde juega las ideas más profundamente originales");
+    quotes.push("Crear un conflicto en lo representado, tensiÃ³n.");
+    quotes.push("El inconciente un lugar donde juega las ideas mÃ¡s profundamente originales");
     quotes.push("El inconciente sede de los miedos,  las emociones y la creatividad");
-    quotes.push(" En determinados estados de conciencia como el consumo de determinadas drogas o el sueños somos mas creativos");
-    quotes.push("Si sigues haciendo lo mismo de siempre pero repitiendo una y otra vez el ciclo de experimentación, evaluación y corrección, hay muchas posibilidades de que todo encaje.");
-    quotes.push("No perder el foco. La disciplina de mantener una sola idea.");
-    quotes.push("Porqué No mirar los contornos no mirar los bordes?");
+    quotes.push(" En determinados estados de conciencia como el consumo de determinadas drogas o el sueÃ±os somos mas creativos");
+    quotes.push("Si sigues haciendo lo mismo de siempre pero repitiendo una y otra vez el ciclo de experimentaciÃ³n, evaluaciÃ³n y correcciÃ³n, hay muchas posibilidades de que todo encaje.");
+    quotes.push("No perder el foco");
+    quotes.push("No mirar los contornos no mirar los bordes");
     quotes.push("Pensar en muchas cosas y no mantener la imagen limpia, limpiar lo que no aporta valor");
 
-    quotes.push("Mirar siempre las notas. Analizarlas y modificarlas.");
-    quotes.push("Seguir un orden de montaje. Paso a paso de organización, para luego desorganizar.");
+
+    quotes.push("Mirar siempre las notas");
+    quotes.push("Seguir un orden de montaje");
     quotes.push("No Lo facil - No Lo obvio - No Lo bello sin constraste - No El glamoour - No El lujo - No El consumismo ni las modas");
     quotes.push("Lo libre, lo salvaje, sin recetas, sin dioses");
     quotes.push("Un lugar donde la miseria, la pobreza, lo organico, habita en un espacio primitivo y animal.");
@@ -92,17 +93,17 @@ function configureQuotes()
     quotes.push("Realizar sketches de una idea hasta destruirla");
     quotes.push("Creatividad vs Productividad");
     quotes.push("Pausa, tiempo, tranquilidad");
-    quotes.push("La soledad, la introspección y la meditación nos permite abrir las puertas a nostros mismos.");
-    quotes.push("Prestar atención: En general, prestamos muy poca atención a las cosas cotidianas, debido al uso de la nueva tecnología. Además intentamos realizar muchas cosas a la vez, pero eso no nos asegura que todo lo que hacemos se hará correctamente. Es realmente importante recordar las cosas que se hacen en un mundo que transcurre cada vez más rápido.");
+    quotes.push("La soledad, la introspecciÃ³n y la meditaciÃ³n nos permite abrir las puertas a nostros mismos.");
+    quotes.push("Prestar atenciÃ³n: En general, prestamos muy poca atenciÃ³n a las cosas cotidianas, debido al uso de la nueva tecnologÃ­a. AdemÃ¡s intentamos realizar muchas cosas a la vez, pero eso no nos asegura que todo lo que hacemos se harÃ¡ correctamente. Es realmente importante recordar las cosas que se hacen en un mundo que transcurre cada vez mÃ¡s rÃ¡pido.");
     quotes.push("Si cambiamos el entorno cambiamos nuestros habitos");
-    quotes.push("Tomar notas: Debemos portar siempre una libreta para anotar las cosas que vemos, oÃ­mos y nos llaman la atención. La mayor parte del tiempo estamos distraÃ­dos y el resto del tiempo actuamos como genios. SegÃºn Hurson, la mayor parte de la gente dice que ha generado buenas ideas en distintas actividades diarias: estando en la ducha, en el baño y en la cama. QuizÃ¡s es difÃ­cil anotar nuestras ideas en esos espacios, pero es necesario tenerlas presentes y apuntar lo antes posible.");
-    quotes.push("Responder preguntas: Una de las mejores formas de tener ideas es hacerse preguntas que estimulen nuestro cerebro, y de la misma forma para poder seguir estimulando nuestro cerebro es necesario responder preguntas continuamente. Debemos realizar preguntas que nos aclaren algo que no conocemos, porque las preguntas con respuestas obvias no nos ayudarÃ¡n en el desarrollo de nuestras actividades. Hurson aclaró: las preguntas con respuestas que ya conoces sólo te llevarÃ¡n a lo que ya conoces");
+    quotes.push("Tomar notas: Debemos portar siempre una libreta para anotar las cosas que vemos, oÃ­mos y nos llaman la atenciÃ³n. La mayor parte del tiempo estamos distraÃ­dos y el resto del tiempo actuamos como genios. SegÃºn Hurson, la mayor parte de la gente dice que ha generado buenas ideas en distintas actividades diarias: estando en la ducha, en el baÃ±o y en la cama. QuizÃ¡s es difÃ­cil anotar nuestras ideas en esos espacios, pero es necesario tenerlas presentes y apuntar lo antes posible.");
+    quotes.push("Responder preguntas: Una de las mejores formas de tener ideas es hacerse preguntas que estimulen nuestro cerebro, y de la misma forma para poder seguir estimulando nuestro cerebro es necesario responder preguntas continuamente. Debemos realizar preguntas que nos aclaren algo que no conocemos, porque las preguntas con respuestas obvias no nos ayudarÃ¡n en el desarrollo de nuestras actividades. Hurson aclarÃ³: las preguntas con respuestas que ya conoces sÃ³lo te llevarÃ¡n a lo que ya conoces");
     quotes.push("Alcanzar ideas: Las ideas en ocasiones son rechazadas porque parecen ser muy locas en un comienzo, sin embargo, se debe insistir en los proyectos que estimamos interesantes. Hay que buscar ideas entretenidas y perseverar en lo que creemos que serÃ¡ una gran idea.");
     quotes.push("Incubar, esperar: Se debe esperar el momento preciso para realizar el proyecto y avanzar en las ideas. Hay que buscar y otorgar un tiempo para incubar las ideas, por ejemplo, realizando actividades diferentes para encontrar ahÃ­ las respuestas.");
     quotes.push("Aplazar el juicio: Existe una gran diferencia entre generar una idea y evaluar una idea. Muchas veces debemos generar una idea sin evaluarla. Hurson explica, es usual que al tratar de generar ideas y luego juzgarlas, no nos resulten. Es por eso que al momento de generar ideas no se realice un juicio apresurado, porque esto puede afectar el progreso final de nuestro proyecto.");
-    quotes.push("Evaluar generalidades: Quizá podemos mejorar las ideas si evaluamos constantemente, pensamos que todo es posible y cruzamos la barrera de lo imposible. La clave para fortalecer estas acciones es la palabra poder (Power). En este sentido, el consultor realizó un acróstico con esta palabra en la que señala los principales atributos que deberÃ­an tener nuestras evaluaciones.");
-    quotes.push("No tener solo una idea, ya que nos genera un encariñamiento y nos limita la posibilidad de tener multiples opciones de trabajo, con las ideas que constantemente cruzan por nuestra cabeza, ir anotando el resto de pensamientos pero no descartarlos de entrada");
-    quotes.push("El arte permite que exista mas de una solución a un mismo problema");
+    quotes.push("Evaluar generalidades: QuizÃ¡ podemos mejorar las ideas si evaluamos constantemente, pensamos que todo es posible y cruzamos la barrera de lo imposible. La clave para fortalecer estas acciones es la palabra poder (Power). En este sentido, el consultor realizÃ³ un acrÃ³stico con esta palabra en la que seÃ±ala los principales atributos que deberÃ­an tener nuestras evaluaciones.");
+    quotes.push("No tener solo una idea, ya que nos genera un encariÃ±amiento y nos limita la posibilidad de tener multiples opciones de trabajo, con las ideas que constantemente cruzan por nuestra cabeza, ir anotando el resto de pensamientos pero no descartarlos de entrada");
+    quotes.push("El arte permite que exista mas de una soluciÃ³n a un mismo problema");
     quotes.push("Deja de seguir lo que demas buscan y crea una moral nueva");
     quotes.push("Cuando algo no funciona a la primera, el normal de las personas buscan el exito en cualquier otro lado.");
     quotes.push("La tarea del arte es transformar los sentimientos en simbolos. Borges");
@@ -113,17 +114,26 @@ function configureQuotes()
     quotes.push("El objeto plasmado es ahora un sentimiento, es el sentimiento lo que ahora se plasma");
 
     quotes.push("Acepta el fracaso como parte misma del exito que se busca");
-    quotes.push("Explora tus recursos, pasa tiempo inventando nuevas formas de ordenarlos. como descontextualizarlos.");
+    quotes.push("Explora tus recursos");
     quotes.push("Realiza cambios y evita el habito");
     quotes.push("Conecta cosas");
     quotes.push("Sintetizar la idea");
     quotes.push("Empezar por la idea basica");
     quotes.push("Observar desde diferentes sombreros la idea");
-    quotes.push("Tomar la idea de un artista y reinventarla esteticamente, resguardando su sentimiento inicial.");
-    quotes.push("Tomar la idea de un artista y reinventarla emocionalmente, resguardando sus elementos esteticos.");
-    quotes.push("Arte no es lo que vemos...");
     quotes.push("");
-    
+    quotes.push("");
+    quotes.push("");
+    quotes.push("");
+    quotes.push("");
+    quotes.push("");
+    quotes.push("");
+    quotes.push("");
+    quotes.push("");
+    quotes.push("");
+    quotes.push("");
+    quotes.push("");
+    quotes.push("");
+    quotes.push("");
 }
 
 function setLevel(level) {
@@ -326,25 +336,53 @@ function createOptions(element, lengthOptions) {
                 $("#divqv").append('<div id="divElement"><label>' + elementSelection + '</label></div>');
                 break;
             case "wv":
-                $("#uwv").append('<li class="list-group-item"><label onclick="expandGWords(\''+ elementSelection +'\')">'+ elementSelection +"</label></li>");
+                //$("#divwv").append('<div id="divElement"><label onclick="expandGWords(\''+ elementSelection +'\')">' + elementSelection + '</label></div>');
+                $("#uwv").append('<li><label onclick="expandGWords(\''+ elementSelection +'\')">'+ elementSelection +"</label></li>");
                 break;
             case "tv":
+                //$("#divtv").append('<div id="divElement"><label>' + elementSelection + '</label></div>');
                 $("#utv").append('<li><label onclick="expandGWords(\''+ elementSelection +'\')">'+ elementSelection +"</label></li>");
                 break;
             case "cwv":
+                //$("#divcwv").append('<div id="divElement"><label>' + elementSelection + '</label></div>');
                 $("#ucwv").append('<li><label onclick="expandGWords(\''+ elementSelection +'\')">'+ elementSelection +"</label></li>");
                 break;
             case "sv":
+                //$("#divsv").append('<div id="divElement"><label>' + elementSelection + '</label></div>');
                 $("#usv").append('<li><label onclick="expandGWords(\''+ elementSelection +'\')">'+ elementSelection +"</label></li>");
                 break;
             case "pv":
+                //$("#divpv").append('<div id="divElement"><label>' + elementSelection + '</label></div>');
                 $("#upv").append('<li><label onclick="expandGWords(\''+ elementSelection +'\')">'+ elementSelection +"</label></li>");
                 break;
             case "ahv":
+                //$("#divahv").append('<div id="divElement"><label>' + elementSelection + '</label></div>');
                 $("#uahv").append('<li><label onclick="expandGWords(\''+ elementSelection +'\')">'+ elementSelection +"</label></li>");
                 break;
             case "alv":
+                //$("#divalv").append('<div id="divElement"><label>' + elementSelection + '</label></div>');
                 $("#ualv").append('<li><label onclick="expandGWords(\''+ elementSelection +'\')">'+ elementSelection +"</label></li>");
+                break;
+            case "gWordsPoint":
+                $("#divgWords").append('<div id="divElement"><label>' + elementSelection + '</label></div>');
+                break;
+            case "gWordsPoint":
+                $("#divgWords").append('<div id="divElement"><label>' + elementSelection + '</label></div>');
+                break;
+            case "gWordsPoint":
+                $("#divgWords").append('<div id="divElement"><label>' + elementSelection + '</label></div>');
+                break;
+            case "gWordsPoint":
+                $("#divgWords").append('<div id="divElement"><label>' + elementSelection + '</label></div>');
+                break;
+            case "gWordsPoint":
+                $("#divgWords").append('<div id="divElement"><label>' + elementSelection + '</label></div>');
+                break;
+            case "gWordsPoint":
+                $("#divgWords").append('<div id="divElement"><label>' + elementSelection + '</label></div>');
+                break;
+            case "gWordsPoint":
+                $("#divgWords").append('<div id="divElement"><label>' + elementSelection + '</label></div>');
                 break;
             case "gWordsPoint":
                 $("#divgWords").append('<div id="divElement"><label>' + elementSelection + '</label></div>');
@@ -402,7 +440,7 @@ function StartLevel2() {
 
     var cwInit = $('#pInit').val();
 
-    if (cwInit != 0) { 
+    if (cwInit != 0) {
         //createOptions("pv", pInit);
         createOptions("pv", 1);
     }
@@ -472,17 +510,6 @@ function expandGWords(element) {
 
 $(document).ready(function () {
 
-    var holaMundo = document.getElementById('headerprincipal');
-
-    var dbRef = firebase.database().ref().child('texto');
-    dbRef.on('value', snap=> holaMundo.innerText = snap.val());
-    //document.getElementById("headerprincipal").innerText(dbRef);
-
-    //var refFirebase = new firebase("https://dmgomezm-2ffb8.firebaseio.com");
-    var obj = {name:"david", email:"email"};
-    //var dbRef = firebase.database().ref().child('texto2');
-    dbRef.set({"texto2":"ok2"});
-    
     console.log("Ready!");
     document.getElementById("btnStartGame").addEventListener("click", StartGame, false);
     document.getElementById("btnStartGame2").addEventListener("click", StartLevel2, false);
@@ -494,4 +521,3 @@ $(document).ready(function () {
     //document.getElementById("btnStartGame").click("StartGame");
 
 });
-

@@ -1,0 +1,18 @@
+
+
+firebase init
+
+firebase deploy
+
+if error on deploy
+
+add 
+
+
+{
+  "hosting": {
+    "public": "public"
+  }
+}
+
+on firebase.js
